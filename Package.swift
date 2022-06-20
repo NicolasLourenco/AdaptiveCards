@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "AdaptiveCards",
+    defaultLocalization: "en",
     platforms: [
         .iOS(.v10)
     ],
